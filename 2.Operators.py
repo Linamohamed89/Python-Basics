@@ -105,6 +105,34 @@ if x < 200:
         print('x=50')
 elif x<50:
     print('x is less than 50')
+
+
+
+###########################################
+
+#5 If with Boolean OP
+
+name="Lina"
+age=31
+if name=="Lina" and age==31:
+    print("welcome Lina")
+
+if name=="Lina" or age==31:
+    print("you are not Lina")
+
+userrname= 'admin'
+password=12345
+
+if userrname=='admin' and password==12345:
+    print('welcome')
+
+if userrname=='admin' or password==123456:
+    print('Hello')
+
+###########################################
+
+#6 
+    
     
     
 
