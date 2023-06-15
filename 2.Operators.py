@@ -22,7 +22,7 @@ print(C)
 D=9/3
 print(D)
 #3.0 /=float
-I=9/4
+E=9/4
 print(I)
 #2.25
 
@@ -30,4 +30,18 @@ print(I)
 F=9//4
 print(F)
 #2 //=int
-2 py file
+
+# **
+G=3**2
+print(G)
+#9
+
+# %
+H=9%4
+print(H)
+#1 9-4=5-4=1
+
+
+
+
+
