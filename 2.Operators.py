@@ -131,18 +131,21 @@ if userrname=='admin' or password==123456:
 
 ###########################################
 
-#6 
+#6 Single if Statement
+
+x=100
+if x==100:print("x=100")
+
+x=5
+print('x=5') if x==5 else print('x !=5')
+
+
+
+# true condition false
+x=500
+print('x>400') if x>400 else print('x')
     
     
-    
-
-
-
-
-
-
-
-
 
 
 ###########################################
