@@ -146,16 +146,86 @@ x=500
 print('x>400') if x>400 else print('x')
     
     
+age=20
+userrname='admin'
+
+isAllawed=True if age > 18 else False
+print(isAllawed)
+
+#isAlllawed with out '..'
+
+ff= True if age > 18 and userrname == 'admin' else False
+print(ff)
+
+#Boolean variable(True-False)
+
 
 
 ###########################################
 
+#7 Conditions Best Practices
+#using condition with dictionary elements [in - not in ]
 
 
+# in - not in
+
+birds={"parakeet":1,"parrot":2}
+if "parrot" in birds:
+    print("there is a parrot")
+
+birds={"parakeet":1,"parrot":2}
+if "parrot" not in birds:
+    print("there is a parrot")
 
 
+names=['Lina','Ahmed','saif']
+if 'Lina' in names :
+    print('welcome Lina')
+if 'basel' not in names :
+    print('not found')
 
 
+# all - any
+
+x=5
+y=6
+z=7
+
+if x==5 and y==6 and z==7 :
+    print('welcome')
+
+# with all or any -->> list + , ([  ,  ,  ])
+
+if all ([x==5 , y==6 , z==7]) :
+    print('welcome')
+    
+
+if x==5 or y==6 or z==7 :
+    print('Hello')
+
+if any ([x==5 , y==6 , z==7]) :
+    print('Hello')
 
 
+a=1
+b=2
 
+if a==1 and b==2:
+    print(True)
+
+if a==1 or b==2:
+    print(True)
+
+if not (a==1 and b==3):
+    print(True)
+
+if a !=0 and b !=3 :
+    print(True)
+
+
+x=1
+if x in (0,2,4):
+    print("match")
+else:
+    print("not found")
+    
