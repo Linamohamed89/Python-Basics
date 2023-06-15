@@ -39,6 +39,8 @@ print(G)
 # %
 H=9%4
 print(H)
+print(H)
+#1 9-4=5-4=1
 
 # = == !=
 x=10
@@ -50,6 +52,28 @@ print(x==10)
 
 # Assignment op
 
+# +=
+x=10
+x +=1
+print(x)
+
+# *=
+x=10
+x *=3
+print(x)
+
+# /=
+x=30
+x /=4
+print(x)
+
+###########################################
+
+#Connditions op
+
+
+
+
 
 
 
@@ -58,12 +82,9 @@ print(x==10)
 
 
 
-print(H)
-#1 9-4=5-4=1
 
 
-x=10
-x == 10
-print(x)
+
+
 
 
