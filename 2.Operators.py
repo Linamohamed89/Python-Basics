@@ -271,13 +271,49 @@ while x<10:
         y +=1
     x +=1
 
+print ('------------------------------------------------')
 
 x=1
 while x <=5:
     print(x)
     x +=5
     
+print ('------------------------------------------------')
+
+x=1
+while x <=5:
+    y=1
+    while y <=10:
+        print(f'{x}X{y}={x*y}')
+        y +=1
+    x +=1
 
 
-    
+    x=1
+while x <=5:
+    y=1
+    while y <=10:
+        print(f'{x}X{y}={x*y}')
+        y +=1
+       # peint('------------')False
+    x +=1
+
+
+    x=1
+while x <=5:
+    y=1
+    while y <=10:
+        print(f'{x}X{y}={x*y}')
+        y += 1
+   # print('-------------------')
+    x += 1
+
+print ('------------------------------------------------')
+
+         
+
+# For loop
+
+for letter in 'python':
+    print(letter)
 
