@@ -352,5 +352,21 @@ for x in range(1,6):
         print(f'{x} X {y} = {x*y}')
     print('----------------------')
 
+
+for i in range (4):
+    for x in range (2):
+        print(i,x)
+
+
+print ('------------------------------------------------')
+
+
+# Loop with lists
+
+c=['hey','Lina',5]
+for x in c:
+    print(x)
+
+
         
 
