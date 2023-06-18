@@ -47,6 +47,55 @@ while x<10:
 
 print ('------------------------------------------------')
 
+
+
+
+
+
+
+
+
+
+# For loop
+
+for letter in 'python':
+    print(letter)
+
+for x in [1,2,3,4]:
+    print(x)
+
+for x in [1,2,3,4,[1,2,3]]:
+    print(x)
+
+#for x in 1234:
+    #print(x)
+    
+# int object is not iterable ( X loop)
+
+
+print ('------------------------------------------------')
+
+# range
+
+#range(start,end,step=1)
+#range(10)  #0 1 2 3 4 5 6 7 8 9
+#range(2,10)#2 3 4 5 6 7 8 9
+#range(2,10,3)#2 5 8
+
+#list(range(2,10,3))
+
+
+for x  in range (1,11):
+    print(x)
+
+for x in range (1,11,2):
+    print(x)
+
+for x in range(1,6):
+    for y in range(1,11):
+        print(f'{x} X {y} = {x*y}')
+    print('----------------------')
+
 x=1
 while x <=5:
     print(x)
