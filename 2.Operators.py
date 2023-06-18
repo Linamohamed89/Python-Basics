@@ -402,18 +402,35 @@ print ('------------------------------------------------')
 
 #Break
 
-
+'''
 x=0
 while x < 10:
     if x ==5:
         break
     print(x)
+'''
+
+
+# 1
+for x in range (10):
+    print(x)
+
+
+#2
+    for x in range (10):
+        if x ==5:
+            break
+        print(x)
 
 
 
-
-    
-
+#3
+    for x in range (10):
+        if x ==5:
+            break
+        print(x)
+print('--------------')
+        
         
 
 
