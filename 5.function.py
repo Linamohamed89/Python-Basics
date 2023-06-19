@@ -45,3 +45,28 @@ b=mysum1(5,10)
 print(b)
 n=mysum2(20,30)
 print(n)
+
+
+
+def mysum(x,y):
+    return x+y
+
+g=mysum(2,3)
+print(g)
+
+
+
+'''
+functions:
+1:required
+def mysum(x,y):
+    return x+y
+
+g=mysum(2)
+print(g)
+
+
+Error:missing 1 required
+
+
+
