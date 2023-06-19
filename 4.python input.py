@@ -44,6 +44,8 @@ for x in range (start):
     for y in range (end):
         print('*',end='')
 
+        
+'''
 ## *** 10x
 ## *** 10x -->>5x
 
@@ -54,3 +56,24 @@ for x in range (start):
     for y in range (end):
         print('*',end='')
     print('')
+    '''
+
+
+'''
+*
+**
+***
+****
+'''
+
+for x in range (0,9):
+    print('*'*x)
+
+
+
+
+
+
+
+
+
