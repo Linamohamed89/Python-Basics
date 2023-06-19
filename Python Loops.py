@@ -133,3 +133,112 @@ while x <=5:
 
 print ('------------------------------------------------')
 
+
+
+
+for i in range (4):
+    for x in range (2):
+        print(i,x)
+
+
+print ('------------------------------------------------')
+
+
+# Loop with lists
+
+c=['hey','Lina',5]
+for x in c:
+    print(x)
+
+
+    #list of lists
+
+l =[[1,2,3],[4,5,6],[7,8,9]]
+for x in l:
+        print(x)
+
+#x=[1,2,3]
+#x=[4,5,6]
+#x=[7,8,9]
+
+
+l =[[1,2,3],[4,5,6],[7,8,9]]
+for x in l:
+    for y in x:
+        print(y)
+
+#
+
+l =[[1,2,3],[4,5,6],[7,8,9]]
+for x in l[0]:
+    print(x)  #-->> just 1 , 2 , 3
+
+# l[0] 1 ,2 ,3
+# l[1] 4 ,5 ,6
+# l[2] 7 ,8 ,9
+
+
+print ('------------------------------------------------')
+
+
+##Contol Statement
+
+#Break
+
+'''
+x=0
+while x < 10:
+    if x ==5:
+        break
+    print(x)
+'''
+
+
+# 1
+for x in range (10):
+    print(x)
+
+
+#2
+    for x in range (10):
+        if x ==5:
+            break
+        print(x)
+
+
+
+#3
+    for x in range (10):
+        if x ==5:
+            break
+        print(x)
+print('---------------------------------------')
+
+#Continue
+
+'''
+x=0
+while x < 10:
+    if x==5 :
+        continue
+    print(x)
+'''
+
+
+for x in range (10):
+    if x ==5:
+        continue
+    print(x)
+
+
+
+
+
+for x in range (10):
+    pass
+print('-----------------')
+
+
+
+
+
