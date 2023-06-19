@@ -239,6 +239,40 @@ for x in range (10):
 print('-----------------')
 
 
+def func1():
+    pass
+def func2():
+    pass
+print('welcome')
+
+print('---------------------------------------')
+
+
+# Loops Best Practices
+
+
+print('Number              Square')
+print('--------------------------')
+
+x=1
+while x<11 :
+    print(x,'             ',x*x)
+    x +=1
+
+
+
+print('Number\tSquare')
+print('------------------')
+
+x=1
+while x<11 :
+    print(x,'\t',x*x)
+    x +=1
+    
+
+
+for x in range (1,11):
+    print(x,'\t',x*x)
 
 
 
