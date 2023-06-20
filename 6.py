@@ -35,3 +35,9 @@ print(text.upper()) #ACCGJ......
 print(text.lower()) #ahgjhg.....
 
 print(text.title()) #Iam Python Dev....
+
+print(text.replace('is','was')) #change word
+
+print(text.split(','))
+
+print(text.split(' '))
