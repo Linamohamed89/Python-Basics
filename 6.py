@@ -135,6 +135,9 @@ print(d)
 
 #{'Lina': 30, 'Mahmoud': 50}
 
+print(d.keys())
+
+#dict_keys(['Lina', 'Mahmoud'])
 
 
 
