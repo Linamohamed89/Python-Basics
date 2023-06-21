@@ -109,7 +109,23 @@ print(k)
 k.pop()
 print(k)
 
+print(min(k))
+print(max(k))
+
 #[100, 60, 40, 30, 20] remove the last value
+
+
+#tuple
+t=(1,10,4,8,True)
+
+min(t)
+print(min(t))
+print(max(t))
+
+
+
+
+
 
 
 
