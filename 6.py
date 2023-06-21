@@ -59,3 +59,36 @@ print(l[0]) #1
 print(l[-1]) #'welcome'
 l[0]=100
 print(l[0]) #l=[100,2,3,4,True,'welcome'] jest in list
+
+
+
+#list function
+
+l=[1,2,3,4,True,'welcome']
+
+l.append(1000)
+print(l)
+
+
+l.insert(0,200)
+print(l)
+
+l.remove(1000)
+print(l)
+
+'''
+l.sort( )
+print(l)
+'''
+
+x=[1,2,3,400,600]
+
+x.reverse()
+print(x)
+ 
+
+
+
+
+
+
