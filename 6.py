@@ -69,12 +69,15 @@ l=[1,2,3,4,True,'welcome']
 l.append(1000)
 print(l)
 
-
+#[1, 2, 3, 4, True, 'welcome', 1000]
 l.insert(0,200)
 print(l)
 
+#[200, 1, 2, 3, 4, True, 'welcome', 1000]
 l.remove(1000)
 print(l)
+
+#[200, 1, 2, 3, 4, True, 'welcome']
 
 '''
 l.sort( )
@@ -85,8 +88,28 @@ x=[1,2,3,400,600]
 
 x.reverse()
 print(x)
- 
+#[600, 400, 3, 2, 1]
 
+x.sort(reverse=True)
+print(x)
+
+#[600, 400, 3, 2, 1]
+
+
+ 
+k=[1,20,30,40,100,60]
+k.reverse()
+print(k)
+#[60, 100, 40, 30, 20, 1]
+
+k.sort(reverse=True)
+print(k)
+#[100, 60, 40, 30, 20, 1]
+
+k.pop()
+print(k)
+
+#[100, 60, 40, 30, 20] remove the last value
 
 
 
