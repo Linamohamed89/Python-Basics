@@ -139,6 +139,46 @@ print(d.keys())
 
 #dict_keys(['Lina', 'Mahmoud'])
 
+print(d.values())
+
+#dict_values([30, 50])
+
+
+print(d.items())
+
+#dict_items([('Lina', 30), ('Mahmoud', 50)])
+
+d={'Lina':30,'Mahmoud':47}
+
+for x in d:
+    print(x)
+
+    ''' keys
+Lina
+Mahmoud
+'''
+
+
+for x in d.values():
+    print(x)
+
+    '''
+30
+47
+'''
+
+for x,y in d.items():
+    print(x,y)
+
+    '''
+Lina 30
+Mahmoud 47
+'''
+
+
+
+
+
 
 
 
