@@ -124,6 +124,23 @@ print(max(t))
 
 
 
+###dict function
+
+d={'Lina':30,'Mahmoud':47}
+print(d['Lina'])
+
+#30
+d['Mahmoud']=50
+print(d)
+
+#{'Lina': 30, 'Mahmoud': 50}
+
+
+
+
+
+
+
 
 
 
