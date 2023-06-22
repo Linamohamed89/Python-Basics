@@ -93,4 +93,7 @@ class  SciCalc:
 
 
 
-
+v=SciCalc()
+v.sum(2,3)
+v.mul(2,3)
+v.power(2,3)
