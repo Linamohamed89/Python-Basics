@@ -1,6 +1,6 @@
 
 
-
+#inheritance
 ###
 
 '''
@@ -97,3 +97,92 @@ v=SciCalc()
 v.sum(2,3)
 v.mul(2,3)
 v.power(2,3)
+
+print('--------------------------------')
+
+class calculator:
+    def sum (self,x,y):
+        print(x+y)
+
+    def mul (self,x,y):
+        print(x*y)
+
+class SciCalc(calculator):
+    def power (self,x,y):
+        print(x**y)
+
+
+v=SciCalc()
+v.sum(2,3) #5
+v.mul(2,3)
+v.power(2,3)
+
+
+print('--------------------------------')
+
+
+
+class calculator:
+    def sum (self,x,y):
+        print(x+y)
+
+    def mul (self,x,y):
+        print(x*y)
+
+class SciCalc(calculator):
+     def sum (self,x,y):
+        print('-------')
+
+    
+     def power(self,x,y):
+         print(x**y)
+
+
+v=SciCalc()
+v.sum(2,3) ##'-------'
+v.mul(2,3)
+v.power(2,3)
+
+
+print('--------------------------------')
+
+class calculator:
+    def __init__(self , name):
+        print(f'welcome {name}')
+
+
+    
+    def sum (self,x,y):
+        print(x+y)
+
+    def mul (self,x,y):
+        print(x*y)
+
+class SciCalc(calculator):
+    def power (self,x,y):
+        print(x**y)
+
+
+v=SciCalc('Lina')
+v.sum(2,3) 
+v.mul(2,3)
+v.power(2,3)
+
+
+
+'''
+encapsulation:self
+inheritance
+polymoephism
+abstraction
+
+
+------------------
+
+
+fully
+partially
+
+'''
+
+
