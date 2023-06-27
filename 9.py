@@ -15,3 +15,7 @@ print('Hello\
 
 #Escape Back Slash
 print('I Love Back Slash \\')
+
+
+#Escape Single Quote
+print('I Love Single Quote \'Test\'')
