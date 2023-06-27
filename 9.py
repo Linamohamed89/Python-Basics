@@ -11,3 +11,7 @@ print('Hello\bWorld')
 print('Hello\
       I Love\
       python')
+
+
+#Escape Back Slash
+print('I Love Back Slash \\')
