@@ -109,6 +109,11 @@ s2.get_avg()
 
 print('-------------------------------')
 
+
+
+
+
+
 class Student:
     def __init__(self,name):
         print(f'welcome {name}')
@@ -116,6 +121,47 @@ class Student:
 
 
 s1=Student('Lina')
+
+
+print('-------------------------------')
+
+
+
+
+'''
+bank
+   -create account :name,age,gender
+   -deposite
+   -withdrow
+   -view balance
+   -shaw all details
+   '''
+
+
+class Bank:
+    def __init__ (self,name,age,gender):
+        print(f'welcome {name}')
+        self.balance=0
+
+
+    def deposite(self,amount):
+        self.balance +=amount
+        print(f'your current balance:{self.balance}')
+
+
+    def withdraw(self,amount):
+        if amount > self.balance:
+            print('not enough balance')
+        else:
+            self.balance -=amount
+            print(f'your current balance:{self.balance}')
+
+
+c1=Bank('Lina',30,'male')
+c1.deposite(500)#your current balance:500
+c1.deposite(600)#your current balance:1100
+c1.withdraw(300)#your current balance:800
+c1.withdraw(1000)#not enough balance
 
 print('-------------------------------')
 
